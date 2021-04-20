@@ -1,0 +1,280 @@
+container {
+  width: 1080px;
+ }
+
+.navi ul {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration-style: none;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.navi li {
+  list-style: none;
+  font-size: 32px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color:  #8a0303;
+}
+
+.cv {
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+.startpic {
+  margin-top: 0px;
+  width: 710px;
+  height: 600px;
+}
+
+.head {
+  font-family: 'Abril Fatface', cursive;
+  max-width: 850px;
+  position: absolute;
+  color: #222;
+  margin: 0;
+  
+  
+}
+h1 {
+  font-size: 60px;
+  margin-left: 220px;
+  margin-top: 300px;
+  margin-bottom: 0px;
+}
+h2 {
+  font-size: 100px;
+  margin-left: 220px;
+  margin-top: 0px;
+  line-height: 0.9;
+  letter-spacing: 6px;
+}
+.fejlecjobb {
+  margin-left: 40px;
+  max-width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.achievements {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+blockquote::before {
+  font-family: 'Abril Fatface', cursive;
+  content:'”';
+  font-size: 100px; 
+  padding-left: none;
+}
+
+.idezet {
+  font-family: 'Abril Fatface', cursive;
+  max-width: 480px;
+  background: black;
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  
+  padding: 0 130px 100px 100px;
+  
+} 
+.cvachievements {
+  margin-left: 40px;
+  max-width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.bekezdes {
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+h3 {
+  font-size: 28px;
+  line-height: 1.5;
+}
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.experience {
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.idezet2 {
+  font-family: 'Abril Fatface', cursive;
+  max-width: 480px;
+  background: black;
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  
+  padding: 0 130px 100px 100px;
+  
+} 
+.cvexperience {
+  margin-left: 40px;
+  max-width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 5px;
+    }
+li {
+  font-size: 28px;
+  line-height: 1.5;
+  list-style: square;
+}
+h3 {
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.training {
+  display: flex;
+  align-items: flex-start;
+  
+}
+.cvtraining {
+  margin-left: 40px;
+  max-width: 500px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+/*
+header {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.fejlec {
+  margin: 0;
+  height: auto;
+  width: 100vw;
+  display: flex;  
+}
+
+.fejlec h1 {
+  color: #222;
+  font-size: 3vw;
+  position: relative;
+  width: 60%;
+  margin-left: 25%;
+  top: 72%;
+  
+}
+.fejlec h2 {
+  color: #222;
+  font-size: 5vw;
+  position: relative;
+  width: 45%;
+  margin-left: 25%;
+  top: 62%;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+
+  }
+
+p {
+  margin-left: 25%;
+  margin-right: 27%;
+  margin-top: 50px;
+  font-size: 1.2vw;
+}
+li {
+  margin-left: 25%;
+  margin-right: 27%;
+  font-size: 1.3vw;
+  list-style: square;
+}
+blockquote::before {
+  font-family: 'Abril Fatface', cursive;
+  content:'”';
+  font-size: 3vw;
+}
+.idezet {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 22%;
+  margin-right: 25%;
+  background: black;
+  color: white;
+  font-size: 3vw;
+  letter-spacing: 1.1;
+  line-height: normal;
+  padding-left: 1%;
+  justify-content: center;
+}
+.idezet #zitat {
+  margin-left: 5% ;
+  padding-bottom: 10%;
+}
+.bekezdes {
+  margin-left: 25%;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h3 {
+  margin-left: 25%;
+  margin-bottom: 0px;
+  font-size: 1.3vw;
+}
+.idezet2 {
+  font-family: 'Abril Fatface', cursive;
+  margin-left: 22%;
+  margin-right: 25%;
+  padding-left: 1%;
+  background: black;
+  color: white;
+  font-size: 3vw;
+  justify-content: center;
+  letter-spacing: 1.1;
+}
+.idezet2 #zitat2 {
+  margin-left: 5%;
+  letter-spacing: 1.1;
+  line-height: 1.5;
+  padding-bottom: 8%;
+
+ }
+h4 {
+  margin-left: 25%;
+  margin-top: 0;
+  font-style: italic;
+  font-size: 80%
+   
+}
+hr {
+  margin-left: 22%;
+  margin-right: 25%;
+  height: 5px;
+  background-color: black;
+  
+}
